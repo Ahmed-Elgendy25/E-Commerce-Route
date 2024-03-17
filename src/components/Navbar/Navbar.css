@@ -1,0 +1,19 @@
+.cart {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.cart::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 100px;
+  bottom: 0;
+  height: 2px;
+  background-color: black;
+  transition: all 1s;
+}
+
+.cart:hover::after {
+  right: 0px;
+}

@@ -1,0 +1,38 @@
+.notch {
+  clip-path: url(#clip);
+}
+.layerz {
+  clip-path: url(#clip2);
+  position: absolute;
+
+  bottom: 18.9rem !important;
+  width: 54%;
+  left: 23% !important;
+  height: 5%;
+}
+/* <svg width="357" height="576" viewBox="0 0 357 576" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.5 23V553.5V558.5L5.5 567L11 572.5L17 575.5H23H59L64.5 572.5C64.5 572.5 69.1311 568 70.5 562.5C71.1131 560.037 72.5 555 72.5 555L75.5 542.5L79 538L87 532H94H271.5L280.5 538L286.5 556L290.5 566.5L296 573L300 575.5H340L345.5 573L352 566.5L355.5 561L356.5 556V17.5L353.5 11.5L347 5.5L339 1H20.5L16.5 3L6.5 9L2 17.5L0.5 23Z" fill="black" stroke="black"/>
+</svg> */
+
+@media (max-width: 575px) {
+  .layerz {
+    height: 4%;
+  }
+  /* .learnMore {
+    font-size: 0.05rem;
+  }
+
+  .arrowTrendUp {
+    font-size: 0.5rem;
+  } */
+}
+
+@media (max-width: 456px) {
+  .learnMore {
+    font-size: 0.6rem !important;
+  }
+
+  .arrowTrendUp {
+    font-size: 0.6rem !important;
+  }
+}

@@ -1,0 +1,4 @@
+.increase:hover,
+.decrease:hover {
+  background-color: rgba(216, 216, 216, 0.848) !important;
+}
